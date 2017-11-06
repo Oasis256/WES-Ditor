@@ -1,0 +1,28 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "eventPage.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon-16.png",
+      "default_title": "WES Ditor"
+   },
+   "content_security_policy": "script-src 'self' filesystem: http://localhost:* https://localhost:* https://ajax.googleapis.com https://code.jquery.com https://cdnjs.cloudflare.com https://unpkg.com https://maxcdn.com https://cdn77.com https://maxcdn.bootstrapcdn.com https://cdn.jsdelivr.net/ https://*.stripe.com/ https://builds.framerjs.com/ https://rawgit.com https://wzrd.in https://www.gstatic.com https://semantic-ui.com https://www.google-analytics.com 'unsafe-eval'; object-src 'self'",
+   "description": "Live HTML Code Editor - Jack can Play now | Work and Play",
+   "homepage_url": "https://nlineproject.org",
+   "icons": {
+      "16": "icon-16.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp4s9naKH2y92qItJCcj3deRGjjqhDfgUR2WDe34IEYEB4PGtmx/9IO4PaO49gMr82DBRuwxCg/vr9SyiVlG1/j0TApJlkaHVsRZE4EME2rbL1vzIQRE8gNB+b5L6rPl4GPX/eFqIuUe/UgQPZAadLBVxdwBdOv5ou8OY0jrLx/h0wcLVvk9d8/ELpk28Hb2LArCBd+vIngHK55Db1GMEGAyNUVzFCTg/MZ7w5fKLpA94mF2X0/Bv9sCjj7vDir24Mp5Z/Y3obTHvpzddppAE6ZEQ3fmpRkOJ3MbuaKYm9hNHs4az6XLW6Sdlv2YcIcCfvsev/WEKUZeD8KIRtRyyPQIDAQAB",
+   "manifest_version": 2,
+   "name": "WES Ditor",
+   "optional_permissions": [ "downloads" ],
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "tabs", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.9.3"
+}

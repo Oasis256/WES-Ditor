@@ -1,0 +1,26 @@
+{
+	"name": "WES Ditor",
+	"version": "2.0",
+	"manifest_version": 2,
+	"description": "Live HTML Code Editor - Jack can Play now | Work and Play",
+	"homepage_url": "http://nlineproject.org",
+	"permissions": ["storage", "tabs", "<all_urls>"],
+	"optional_permissions": ["downloads"],
+	"content_security_policy": "script-src 'self' filesystem: http://localhost:* https://localhost:* https://ajax.googleapis.com https://code.jquery.com https://cdnjs.cloudflare.com https://unpkg.com https://maxcdn.com https://cdn77.com https://maxcdn.bootstrapcdn.com https://cdn.jsdelivr.net/ https://*.stripe.com/ https://builds.framerjs.com/ https://rawgit.com https://wzrd.in https://www.gstatic.com https://semantic-ui.com https://www.google-analytics.com 'unsafe-eval'; object-src 'self'",
+	"options_ui": {
+		"page": "options.html",
+		"chrome_style": true
+	},
+	"browser_action": {
+		"default_title": "Start WES Ditor",
+		"default_icon": "icon-16.png"
+	},
+	"background": {
+		"scripts": ["eventPage.js"],
+		"persistent": false
+	},
+	"icons": {
+		"16": "icon-16.png",
+		"48": "icon-48.png"
+	}
+}
